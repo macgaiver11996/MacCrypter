@@ -12,4 +12,5 @@ fi
 curl -O https://raw.githubusercontent.com/Anon4You/EncTool/main/enctool
 mv enctool $PATH
 chmod +x $PATH/enctool && clear
-printf "Successfully installed Mac-Crypter in your device"
+printf "Successfully installed MacCrypter in your device"
+clear
