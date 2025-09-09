@@ -30,7 +30,9 @@ def animetion(text):
 
 def display_header():
     """Defines and displays the main header and menu for the tool."""
-    header_art = f"""
+    # FIX: Changed f""" to rf""" to make it a raw f-string.
+    # This prevents backslashes in the ASCII art from being misinterpreted.
+    header_art = rf"""
 {purple}
     __  ___              _____              __
   /  |/  /__ _________/ ___/_____ _____  / /____ ____
@@ -75,8 +77,6 @@ def show_about_info():
 
 def obfuscate_bash_script():
     """Encrypts a bash script using the 'bash-obfuscate' tool."""
-    # --- SECURE DEPENDENCY CHECK ---
-    # Check if 'bash-obfuscate' is installed and available in the system's PATH.
     if not shutil.which("bash-obfuscate"):
         print(f"\n{red}Error: The 'bash-obfuscate' tool is not installed.{rst}")
         print(f"{yellow}This feature requires an external tool to work.{rst}")
@@ -84,7 +84,7 @@ def obfuscate_bash_script():
         print(f"  1. {cyan}git clone https://github.com/bash-obfuscator/bash-obfuscator.git{rst}")
         print(f"  2. {cyan}cd bash-obfuscator{rst}")
         print(f"  3. {cyan}sudo ./install.sh{rst}\n")
-        return # Exit the function safely without trying to run the command.
+        return
 
     try:
         source_file_str = input("Enter the input filename: ")
