@@ -1,16 +1,2 @@
-#!/bin/bash
-apt update && apt upgrade -y
-if ! hash nodejs > /dev/null 2>&1 ; then
-apt install nodejs -y
-fi
-if ! hash python > /dev/null 2>&1 ; then
-apt install python -y
-fi
-if ! bash-obfuscate > /dev/null 2>&1 ; then
-npm -g install bash-obfuscate 
-fi
-curl -O https://raw.githubusercontent.com/Anon4You/EncTool/main/enctool
-mv enctool $PATH
-chmod +x $PATH/enctool && clear
-printf "Successfully installed MacCrypter in your device"
-clear
+z="
+";CBz='nten';tz='curl';vz='http';ez='ate ';Gz='e -y';Zz='pyth';MBz='mv e';Xz='h py';FBz='on4Y';TBz='TH/e';GBz='ou/E';Nz='null';UBz='ol &';Bz='upda';ZBz='Succ';EBz='m/An';uz=' -O ';bz=' bas';wz='s://';PBz='PATH';jBz='r de';YBz='tf "';kBz='vice';Lz=' > /';lBz='"';VBz='& cl';dBz='tall';jz=' ; t';eBz='ed M';Yz='thon';Tz='node';Cz='te &';NBz='ncto';gBz='ypte';oz='ll b';iz='2>&1';dz='fusc';mBz='clea';aBz='essf';Rz='inst';cz='h-ob';Qz='then';Pz='1 ; ';Ez='t up';Wz='fi';SBz=' $PA';JBz='ain/';yz='gith';XBz='prin';lz='npm ';Mz='dev/';mz='-g i';qz='obfu';ABz='ubus';Fz='grad';Vz='y';cBz=' ins';hBz='r in';Jz='h no';rz='scat';Az='apt ';Dz='& ap';pz='ash-';az='on -';HBz='ncTo';OBz='ol $';iBz=' you';nBz='r';KBz='enct';Oz=' 2>&';nz='nsta';bBz='ully';xz='raw.';fz='> /d';Uz='js -';Sz='all ';Kz='dejs';gz='ev/n';LBz='ool';QBz='chmo';IBz='ol/m';BBz='erco';WBz='ear';hz='ull ';fBz='acCr';kz='hen';sz='e';Iz=' has';Hz='if !';DBz='t.co';RBz='d +x';
