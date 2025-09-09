@@ -41,7 +41,7 @@ def display_header():
 """
     details = f"""{green} Author   : Macgaiver
  Github   : https://github.com/macgaiver11996
- Telegram : t.me/macgaiver_official{rst}
+ Telegram : t.me/macgaiver_official
 """
     symbol = f"{green}\n***********************************************************{rst}"
 
